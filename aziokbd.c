@@ -421,7 +421,7 @@ static int usb_kbd_probe(struct usb_interface *iface,
 	if (dev->manufacturer)
 		strlcpy(kbd->name, dev->manufacturer, sizeof(kbd->name));
   	*/
-
+	// the block below added by Jerry Ma.
 	if (dev->manufacturer)
 		#ifdef strscpy
 			strscpy(kbd->name, dev->manufacturer, sizeof(kbd->name));
