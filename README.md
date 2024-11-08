@@ -1,3 +1,5 @@
+I'm not the author of this driver. Forked from Colin's work and modified the conditional compilation of **strlcpy** and **strscpy** function -- strlcpy was obsoleted by strscpy in kernel 6.
+
 # Linux Microdia Keyboard Chipset Driver #
 
 For Chipset `0x0c45`:`0x7603`
